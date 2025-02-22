@@ -1,0 +1,41 @@
+{
+  "name": "Html5 Veloce Framework",
+  "version": "0.0.1",
+  "description": "Html5 Framework for Websites and App",
+  "private": true,
+  "keywords": [
+    "Framework"
+  ],
+  "license": "GNU",
+  "author": "Maxsoft",
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "core-js": "^3.40.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "imagemin-webp-webpack-plugin": "^3.3.6",
+    "sass": "^1.85.0",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-merge": "^5.10.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
