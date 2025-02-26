@@ -1,7 +1,7 @@
 {
-  "name": "Html5 Veloce Framework",
+  "name": "html5_veloce_framework",
   "version": "0.0.1",
-  "description": "Html5 Framework for Websites and App",
+  "description": "Html5 Framework for Websites and App's",
   "private": true,
   "keywords": [
     "Framework"
@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --open --config webpack.config.dev.js",
+    "dev": "webpack serve --open --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js"
   },
   "devDependencies": {
@@ -27,6 +27,7 @@
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.0",
     "imagemin-webp-webpack-plugin": "^3.3.6",
+    "postcss-loader": "^8.1.1",
     "sass": "^1.85.0",
     "sass-loader": "^16.0.5",
     "style-loader": "^4.0.0",
